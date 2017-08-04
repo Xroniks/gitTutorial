@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace FirstMVCprogect.App_Code
+@helper HtmlList(string[] items)
+{
+    <ul>
+        @foreach (var item in items)
+        {
+            <li>@item</li>
+        }
+    </ul>
+}
